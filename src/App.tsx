@@ -599,7 +599,7 @@ export default function App() {
 
       {/* Footer info */}
       <footer className="mt-8 text-center text-xs text-slate-500 pb-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
-        <span>🏁 F11 전체화면을 사용하면 행사장 전광판처럼 활용할 수 있습니다.</span>
+        <span>🏁 F 키: 스톱워치 전광판 대형 전체화면 모드 토글</span>
         <span>•</span>
         <span>스페이스바: 스톱워치 시작/정지</span>
         <span>•</span>
