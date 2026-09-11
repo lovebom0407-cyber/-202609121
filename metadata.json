@@ -1,0 +1,6 @@
+{
+  "name": "미니카 3레인 대회 전광판",
+  "description": "미니카 3레인 스피드 챌린지 경기 운영, 랩타임 측정 및 실시간 순위 전광판 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
