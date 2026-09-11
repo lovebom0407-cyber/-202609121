@@ -490,7 +490,7 @@ export default function App() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `미니카대회_${roundTitle.replace(/\s+/g, '_')}_기록표.csv`;
+    a.download = `2026_삼척과학체험한마당_미니카사구대회_${roundTitle.replace(/\s+/g, '_')}_기록표.csv`;
     a.click();
     URL.revokeObjectURL(url);
     showToast('CSV 파일이 다운로드되었습니다.');

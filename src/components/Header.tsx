@@ -57,31 +57,31 @@ export default function Header({
   };
 
   return (
-    <header className="mb-5 flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-sky-500/20 pb-4">
-      <div className="flex-1">
+    <header className="mb-5 flex flex-col lg:flex-row lg:items-end justify-between gap-4 border-b border-sky-500/20 pb-4">
+      <div className="flex-1 min-w-0">
         <div className="flex flex-wrap items-center gap-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-400/30 text-sky-400 text-xs font-bold tracking-wider uppercase">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-400/30 text-sky-400 text-xs font-bold tracking-wider uppercase whitespace-nowrap">
             <Trophy className="w-3.5 h-3.5" /> MINI 4WD TOURNAMENT
           </div>
           <button
             id="btn-quick-sample"
             onClick={onLoadDemoData}
-            className="text-xs text-sky-300/80 hover:text-sky-200 flex items-center gap-1 hover:underline transition-colors cursor-pointer"
+            className="text-xs text-sky-300/80 hover:text-sky-200 flex items-center gap-1 hover:underline transition-colors cursor-pointer whitespace-nowrap"
             title="테스트용 예시 참가자 명단 불러오기"
           >
             <Sparkles className="w-3 h-3" /> 샘플 데이터
           </button>
         </div>
 
-        <h1 className="mt-1 text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white flex items-center gap-2">
-          <span>🏁 미니카 3레인 스피드 챌린지</span>
+        <h1 className="mt-1 text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black tracking-tight text-white flex items-center gap-2 whitespace-nowrap">
+          <span className="whitespace-nowrap inline-block">🏁 2026 삼척과학체험한마당 미니카 사구대회</span>
         </h1>
-        <p className="text-slate-400 mt-1 text-sm sm:text-base font-medium">
-          한 경기당 3명 동시 출전 · 기록 입력 시 전체 순위 자동 반영
+        <p className="text-slate-400 mt-1 text-xs sm:text-sm md:text-base font-medium whitespace-nowrap">
+          3레인 사구대회 경기 운영 · 실시간 랩타임 측정 및 순위 전광판
         </p>
       </div>
 
-      <div className="flex items-center justify-between md:justify-end gap-5">
+      <div className="flex items-center justify-between lg:justify-end gap-5 shrink-0">
         {/* Round & Clock */}
         <div className="text-right">
           <div className="flex items-center justify-end gap-2">
